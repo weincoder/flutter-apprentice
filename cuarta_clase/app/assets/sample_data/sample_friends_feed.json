@@ -1,0 +1,74 @@
+{
+    "feed": [
+        {
+            "id": "1",
+            "profileImageUrl": "assets/profile_pics/person_cesare.jpeg",
+            "comment": "Hice una deliciosa Pizza 🍕 esta mañana",
+            "foodPictureUrl": "card_carrot.png",
+            "timestamp": "10"
+        },
+        {
+            "id": "2",
+            "profileImageUrl": "assets/profile_pics/person_stef.jpeg",
+            "comment": "Tremenda crema me hice el día de hoy 🤯",
+            "foodPictureUrl": "card_carrot.png",
+            "timestamp": "80"
+        },
+        {
+            "id": "3",
+            "profileImageUrl": "assets/profile_pics/person_crispy.png",
+            "comment": "Hice una deliciosa ensalada 🥗",
+            "foodPictureUrl": "card_carrot.png",
+            "timestamp": "20"
+        },
+        {
+            "id": "4",
+            "profileImageUrl": "assets/profile_pics/person_joe.jpeg",
+            "comment": "Cociné tremendo Widget esta mañana 💻",
+            "foodPictureUrl": "card_carrot.png",
+            "timestamp": "30"
+        },
+        {
+            "id": "5",
+            "profileImageUrl": "assets/profile_pics/person_katz.jpeg",
+            "comment": "Con la mejor actitud a hacerme un batido 🥤 para terminar la lectura del aprentice Book!",
+            "foodPictureUrl": "card_carrot.png",
+            "timestamp": "40"
+        },
+        {
+            "id": "6",
+            "profileImageUrl": "assets/profile_pics/person_kevin.jpeg",
+            "comment": "Cocinando carne 🥩 hoy, quedo como rara 🙃",
+            "foodPictureUrl": "card_carrot.png",
+            "timestamp": "50"
+        },
+        {
+            "id": "7",
+            "profileImageUrl": "assets/profile_pics/person_sandra.jpeg",
+            "comment": "Me tomaré un batido para seguir editando los capítulos",
+            "foodPictureUrl": "card_carrot.png",
+            "timestamp": "50"
+        },
+        {
+            "id": "8",
+            "profileImageUrl": "assets/profile_pics/person_manda.png",
+            "comment": "No estoy seguro de que ir a comer hoy",
+            "foodPictureUrl": "card_carrot.png",
+            "timestamp": "60"
+        },
+        {
+            "id": "9",
+            "profileImageUrl": "assets/profile_pics/person_ray.jpeg",
+            "comment": "Este año haré mas libros de cocina 🧑🏽‍🍳📕",
+            "foodPictureUrl": "card_carrot.png",
+            "timestamp": "70"
+        },
+        {
+            "id": "10",
+            "profileImageUrl": "assets/profile_pics/person_tiffani.jpeg",
+            "comment": "Hmmm😋 salmon🍣 + papas 🍟 + ensalada 🥗",
+            "foodPictureUrl": "card_carrot.png",
+            "timestamp": "90"
+        }
+    ]
+}
