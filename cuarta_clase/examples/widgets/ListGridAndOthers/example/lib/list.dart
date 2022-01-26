@@ -3,6 +3,7 @@ import 'package:example/list_examples/example_listview_builder.dart';
 import 'package:example/list_examples/example_listview_separeted.dart';
 import 'package:example/list_examples/nested_listviews.dart';
 import 'package:example/list_examples/normal_listview.dart';
+import 'package:example/list_examples/page_view_example.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -57,6 +58,14 @@ class ListExamples extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                       builder: (builder) => const ExampleGridView())),
+            ),
+            MaterialButton(
+              child: Text('Page View Example', style: GoogleFonts.abel(fontSize: 20, color: Colors.white) ,),
+              color: Colors.deepPurple,
+              onPressed: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (builder) => const PageViewExample())),
             )
           ],
         ),

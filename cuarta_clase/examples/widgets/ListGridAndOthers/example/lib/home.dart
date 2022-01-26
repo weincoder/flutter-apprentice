@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
         Text('Ingrese Su Nombre', style: GoogleFonts.lato(fontSize: 20.0)),
         TextField(
           controller: _nameController,
-          decoration: InputDecoration(hintText: 'Ingrese su nombre'),
+          decoration: const  InputDecoration(hintText: 'Ingrese su nombre'),
         ),
         Text(_name),
         Wrap(
