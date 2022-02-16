@@ -33,7 +33,8 @@ class Home extends StatelessWidget {
               shape: const RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(Radius.circular(10.0))),
             ),
-            Consumer<UserProvider>(builder: (context, user,_) => Text(user.name)),
+            Consumer<UserProvider>(builder: (context, user,_) { 
+              return Text(user.name);}),
             Consumer<CatProvider>(builder: (context, user,_) => Text(user.name))
           ],
         ),
