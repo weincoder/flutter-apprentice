@@ -6,7 +6,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Ejemplo peticiones HTTP',style: TextStyle(fontSize: 24.0)),),
+      appBar: AppBar(title: const Text('🌎 peticiones HTTP',style: TextStyle(fontSize: 24.0)),),
       body:  Center(child: Column(
         children: const [
           Text('Comencemos🔨', style: TextStyle(fontSize: 34.0),),
