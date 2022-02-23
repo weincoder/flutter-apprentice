@@ -28,7 +28,7 @@ class AlbumTile extends StatelessWidget {
                   child:
                       Text(title,
                         key: const Key('title-album-api'),
-                        style: GoogleFonts.abel(fontSize: 20),
+                        style: GoogleFonts.abel(fontSize: 18),
                       textAlign: TextAlign.center,),
                 ) ,
               Container(
