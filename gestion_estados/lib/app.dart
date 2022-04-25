@@ -3,6 +3,7 @@ import 'package:gestion_estados/config/routes/app_routes.dart';
 import 'package:gestion_estados/core/providers/album_provider.dart';
 import 'package:gestion_estados/core/providers/cart_provider.dart';
 import 'package:gestion_estados/core/providers/user_provider.dart';
+import 'package:gestion_estados/domain/use_cases/album/album_use_cases.dart';
 import 'package:gestion_estados/infraestructure/api/album_api/album_api.dart';
 import 'package:gestion_estados/screens/home_page.dart';
 import 'package:gestion_estados/screens/login_page.dart';
@@ -20,7 +21,7 @@ class GestionEstadosApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(
             create: (currenContext) =>
-                AlbumProvider(albumGateway: CustomAlbumApi())),
+                AlbumProvider(albumUseCase: GetAlbumUseCase(CustomAlbumApi()))),
         ChangeNotifierProvider(
             create: (currenContext) =>
                 UserProvider()),
